@@ -1,5 +1,9 @@
 # Community Sync
 
+[![CI](https://github.com/AshishRudrawar/community-sync/actions/workflows/python-app.yml/badge.svg)](https://github.com/AshishRudrawar/community-sync/actions/workflows/python-app.yml)
+[![Dependabot](https://github.com/AshishRudrawar/community-sync/actions/workflows/dependabot.yml/badge.svg)](https://github.com/AshishRudrawar/community-sync/actions/workflows/dependabot.yml)
+[![Release](https://github.com/AshishRudrawar/community-sync/actions/workflows/release.yml/badge.svg)](https://github.com/AshishRudrawar/community-sync/actions/workflows/release.yml)
+
 `community-sync` is a CLI tool for generating weekly health reports for GitHub organizations and repos.
 
 ## Setup
