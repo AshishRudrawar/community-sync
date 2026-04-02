@@ -1,0 +1,31 @@
+[project]
+name = "community-sync"
+version = "0.1.0"
+description = "CLI to generate weekly community health reports for GitHub organizations." 
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["cli", "github", "community", "oss", "reports"]
+authors = [
+  { name = "Ashish Rudrawar", email = "noreply@example.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "click>=8.1",
+  "requests>=2.31"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+comsync = "community_sync.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

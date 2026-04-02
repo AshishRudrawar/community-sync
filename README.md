@@ -1,0 +1,36 @@
+# Community Sync
+
+`community-sync` is a CLI tool for generating weekly health reports for GitHub organizations and repos.
+
+## Setup
+
+```bash
+cd community-sync
+python -m pip install --upgrade pip
+python -m pip install -e '.[test]'
+```
+
+or with Makefile:
+
+```bash
+make install
+```
+
+## Features
+
+- `comsync report --org orgname`: gather open issues, PRs, stale items, and contributor stats across org repos
+- `comsync summary --repo owner/repo`: output a quick community progress summary
+
+## Quickstart
+
+```bash
+comsync report --org octokit
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+MIT
